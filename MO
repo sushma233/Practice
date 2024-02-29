@@ -1,0 +1,24 @@
+class Insta
+{
+	void Send()
+	{
+		System.out.println("Send Reels");
+	}
+}
+	class Insta1 extends Insta{
+		
+	
+	void Send()
+	{
+		System.out.println("React Reels");
+	}
+}
+public class Main {
+public static void main(String[] args)
+{
+	Insta I2=new Insta();
+	I2.Send();
+	Insta1 I1=new Insta1();
+	I1.Send();
+}
+}
